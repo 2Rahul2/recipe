@@ -9,7 +9,7 @@ export default function RecipeApp() {
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [error, setError] = useState('');
 
-  const quickIngredients = ['chicken', 'salmon', 'pasta', 'rice', 'paneer', 'cheese'];
+  const quickIngredients = ['chicken', 'salmon', 'rice', 'paneer', 'cheese'];
   const moodOptions = ['comfort', 'healthy', 'quick', 'fancy'];
   const timeOptions = ['15', '30', '45', '60+'];
 
